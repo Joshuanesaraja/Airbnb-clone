@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+    color: #ff4668;
+}
+.searchbar{
+    display: flex;
+    border: solid black 2px;
+    width: 30%;
+    padding: 15px;
+    justify-content: space-around;
+    border-radius: 30px;
+    transition-duration: 1s;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    align-items: center;
+}
+.searchbar:hover{
+    transform: scale(1.05);
+    color: #ff4668;
+}
+.filter{
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+    text-align: center;
+    cursor: pointer;
+    background-color:white
+}
+.filterbox:hover{
+    color: #ff4668;
+}
+.hotels{
+    display: flex;
+    padding: 15px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    cursor: pointer;
+    transition-duration: 20ms;
+}
+.footer{
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+img{
+    transition-duration: 1s;
+    border-radius: 10px;
+}
+img:hover{
+    transform: scale(1.05);
+}
+.login:hover{
+    color: #ff4668;
+}
+.logo:hover{
+    color: black;
+}
